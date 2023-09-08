@@ -27,6 +27,9 @@ dependencies {
 	implementation 'org.projectlombok:lombok'
 	testCompileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
+
+	//Mockito
+	testImplementation 'org.mockito:mockito-core'
 }
 
 tasks.named('test') {
