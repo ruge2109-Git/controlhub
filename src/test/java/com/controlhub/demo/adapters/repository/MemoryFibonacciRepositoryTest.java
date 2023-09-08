@@ -47,7 +47,7 @@ public class MemoryFibonacciRepositoryTest {
 
     @Test
     void calculateFibonacci_WhenNIsLarge_ReturnsCorrectResult() {
-        int n = 6;
+        int n = 10;
         long expectedResult = 55;
 
         long result = memoryFibonacciRepository.calculateFibonacci(n);
